@@ -10,6 +10,6 @@ Application is available on both Ios & Android
 Main Functionality is to listen audio records on different languages.
 Also you can read text description and navigate around museum using stand numbers
 
-![App layouts](Дизайн без названия.png)
+![App layouts](1.png)
 
 Thank you for watching! Leave a star!
