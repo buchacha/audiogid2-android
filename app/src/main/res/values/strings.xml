@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Музей Набокова</string>
+    <string name="main_page_welcome">Добро пожаловать в дом-музей \nВ. В. Набокова</string>
+    <string name="hint_stend_number">Введите номер стенда</string>
+    <string name="confirm_button">Перейти</string>
+    <string name="last_page_speech">Спасибо, что воспользовались нашим аудиогидом. Пожалуйста, поделитесь своими впечатлениями.</string>
+    <string name="leave_comment">Оставить отзыв</string>
+    <string name="make_donation">Сделать пожертвование</string>
+    <string name="see_website">Посетить сайт</string>
+    <string name="audiogid_list">Список аудиогида</string>
+    <string name="give_number_of_stend">Ввести номер стенда</string>
+    <string name="audio_item_1_label">Первый аудио элемент</string>
+    <string name="audio_item_1_text">Текст к первому элементу</string>
+    <string name="audio_item_2_label">Первый аудио элемент</string>
+    <string name="audio_item_2_text">Текст к первому элементу</string>
+    <string name="audio_item_3_label">Первый аудио элемент</string>
+    <string name="audio_item_3_text">Текст к первому элементу</string>
+    <string name="audio_item_4_label">Первый аудио элемент</string>
+    <string name="audio_item_4_text">Текст к первому элементу</string>
+    <string name="get_number_label">Всего доступно квестов:</string>
+    <string name="toast_if_wrong_number_get_number">Неправильно введен номер стенда</string>
+
+</resources>

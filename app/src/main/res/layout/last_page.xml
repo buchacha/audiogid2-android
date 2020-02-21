@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_page_speech"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/label_audio_item"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/leave_comment"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:clickable="true"
+            android:id="@+id/write_comment"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/make_donation"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:clickable="true"
+            android:id="@+id/make_donation"/>
+    </LinearLayout>
+
+</RelativeLayout>

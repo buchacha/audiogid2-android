@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">
+纳博科夫博物馆</string>
+    <string name="main_page_welcome">歡迎來到納博科夫故居博物館</string>
+    <string name="hint_stend_number">輸入號碼</string>
+    <string name="confirm_button">前往</string>
+    <string name="last_page_speech">感謝您使用我們的音頻指南 \n請分享您的印象</string>
+    <string name="leave_comment">發表評論</string>
+    <string name="make_donation">捐款</string>
+    <string name="see_website">訪問網站</string>
+    <string name="audiogid_list">
+語音導覽清單</string>
+    <string name="give_number_of_stend">
+語音導覽清單</string>
+    <string name="audio_item_1_label">第一個音頻元素</string>
+    <string name="audio_item_1_text">
+文字優先音頻元素</string>
+    <string name="audio_item_2_label">第一個音頻元素</string>
+    <string name="audio_item_2_text">
+文字優先音頻元素</string>
+    <string name="audio_item_3_label">第一個音頻元素</string>
+    <string name="audio_item_3_text">
+文字優先音頻元素</string>
+    <string name="audio_item_4_label">第一個音頻元素</string>
+    <string name="audio_item_4_text">
+文字優先音頻元素</string>
+    <string name="get_number_label">Всего доступно квестов:</string>
+    <string name="toast_if_wrong_number_get_number">Неправильно введен номер стенда</string>
+</resources>

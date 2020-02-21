@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:src="@drawable/main_image"
+        android:scaleType="centerCrop"
+        android:paddingBottom="11dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/main_page_welcome"
+        android:textAlignment="center"
+        android:fontFamily="@font/academic"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#fff59d"
+            android:layout_margin="11dp"
+            android:text="@string/see_website"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:paddingRight="11dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="22dp"
+            android:id="@+id/website"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#fff59d"
+            android:layout_margin="11dp"
+            android:text="@string/audiogid_list"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:paddingRight="11dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="22dp"
+            android:id="@+id/audiogid"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#fff59d"
+            android:layout_margin="11dp"
+            android:text="@string/give_number_of_stend"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:paddingRight="11dp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:paddingLeft="22dp"
+            android:id="@+id/audio_number"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

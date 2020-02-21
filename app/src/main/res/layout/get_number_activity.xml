@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_number_label"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/academic"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:id="@+id/num_of_items_get_number"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/hint_stend_number"
+            android:id="@+id/edit_text_get_number"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/confirm_button"
+            android:id="@+id/button_get_number"/>
+    </LinearLayout>
+
+</RelativeLayout>

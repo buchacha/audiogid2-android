@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/list_activity_player_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/academic"
+            android:background="#fff59d"
+            android:textStyle="bold"
+            android:padding="11dp"
+            android:textSize="30dp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#fff59d"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/player_previous"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:src="@drawable/previous"
+                android:background="#fff59d"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/player_play"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:src="@drawable/play"
+                android:background="#fff59d"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/player_next"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:src="@drawable/next"
+                android:background="#fff59d"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

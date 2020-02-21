@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/lang_item"
+        android:title="item1"
+        android:icon="@drawable/ic_language_black_24dp"
+        app:showAsAction="ifRoom" >
+
+        <menu>
+
+            <item
+                android:id="@+id/russian_item"
+                android:title="Русский"
+                android:icon="@drawable/russia"/>
+
+            <item
+                android:id="@+id/english_item"
+                android:title="English"
+                android:icon="@drawable/english"/>
+
+            <item
+                android:id="@+id/chinese_item"
+                android:title="中文"
+                android:icon="@drawable/china"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

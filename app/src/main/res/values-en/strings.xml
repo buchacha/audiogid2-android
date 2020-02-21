@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Nabokov Museum</string>
+    <string name="main_page_welcome">Welcome to the Nabokov House Museum \ n</string>
+    <string name="hint_stend_number">Enter booth number</string>
+    <string name="confirm_button">Go to</string>
+    <string name="last_page_speech">
+Thank you for using our audio guide. Please share your impressions.</string>
+    <string name="leave_comment">
+Give feedback</string>
+    <string name="make_donation">
+Make a donation</string>
+    <string name="see_website">
+Visit website</string>
+    <string name="audiogid_list">Audio Guide List</string>
+    <string name="give_number_of_stend">Enter booth number</string>
+    <string name="audio_item_1_label">First audio item</string>
+    <string name="audio_item_1_text">Text to first audio item</string>
+    <string name="audio_item_2_label">First audio item</string>
+    <string name="audio_item_2_text">Text to first audio item</string>
+    <string name="audio_item_3_label">First audio item</string>
+    <string name="audio_item_3_text">Text to first audio item</string>
+    <string name="audio_item_4_label">First audio item</string>
+    <string name="audio_item_4_text">Text to first audio item</string>
+    <string name="get_number_label">Всего доступно квестов:</string>
+    <string name="toast_if_wrong_number_get_number">Неправильно введен номер стенда</string>
+</resources>
